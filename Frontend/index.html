@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hodlinfo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <nav>
+                <div class="tophead">
+                    HODLINFO
+                </div>
+                <div class="top-dropdown">
+                    <button class="topbtn">INR</button>
+                    <button class="topbtn">BTC </button>
+                    <button class="topbtn">Buy BTC</button>
+                </div>
+                <div class="toogle">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </nav>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Last Price</th>
+                        <th>Buy Price</th>
+                        <th>Sell Price</th>
+                        <th>Volume</th>
+                        <th>Base Unit</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+                  
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+<script src="script.js"></script>
+</html>
